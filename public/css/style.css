@@ -1,0 +1,81 @@
+body {
+  /* height: 100%;
+  background: linear-gradient(90deg, rgb(148, 1, 1) 50%, white 50%); */
+  font-family: "Merriweather", serif;
+  /* border-style: solid;
+  /* border-radius: 10rem; */
+  /* border-width: 30px; */
+  height: 100%;
+  margin: 0;
+}
+/* .container {
+  background-color: crimson;
+} */
+
+@keyframes example {
+  from {
+    background-color: rgb(129, 0, 0);
+  }
+  to {
+    background-color: yellow;
+  }
+}
+
+.heading {
+  font-size: 14vw;
+  margin: auto;
+  text-align: center;
+  border-bottom: 20px solid black;
+}
+
+html,
+.container {
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bgleft {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  position: absolute;
+  z-index: -1;
+  background-color: rgb(255, 255, 255);
+}
+
+.bgbottom {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  position: absolute;
+  z-index: -1;
+  background-color: rgb(128, 0, 0);
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: 2;
+  animation-direction: alternate;
+}
+
+.maoriquote,
+.englishquote {
+  text-align: left;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.maoriquote {
+}
+
+#text {
+  color: rgb(129, 0, 0);
+}
