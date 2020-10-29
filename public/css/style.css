@@ -156,5 +156,24 @@ transitions to be less opaque withing one second */
   font-family: "Merriweather", serif;
   display: flex;
   align-items: center;
-  
+  float: right;
+  margin-right: 30px;
+}
+
+.previous{
+  text-decoration: none;
+  color: black;
+  font-size: 50px;
+  float: left;
+  margin-left: 200px;
+  margin-top: -40px;
+}
+
+.next{
+  text-decoration: none;
+  color: black;
+  font-size: 50px;
+  float: right;
+  margin-right: 200px;
+  margin-top: -40px;
 }
