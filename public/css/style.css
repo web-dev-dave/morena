@@ -73,6 +73,12 @@ html,
   background-color: rgb(128, 0, 0);
 }
 
+/* .btmcontainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+
 .maoriquote,
 .englishquote {
   text-align: left;
@@ -114,4 +120,41 @@ html,
   cursor: pointer;
   outline: none;
   font-family: "Merriweather", serif;
+}
+
+/* shows hover text like "click on button to get a quote" 
+above button with arrow pointing downward
+transitions to be less opaque withing one second */
+/* .tooltip {
+  display: flex;
+  align-items: center;
+}
+.tooltip .tooltiptext::after {
+  content: " ";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 1s;
+} */
+
+.addbtn {
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  outline: none;
+  font-family: "Merriweather", serif;
+  display: flex;
+  align-items: center;
+  
 }
