@@ -2,6 +2,9 @@ body {
     background-color: salmon;
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
+#grad {
+    background-image: radial-gradient(circle, yellow, orange, red);
+}
 button {
     display: flex;
     flex-direction: column;
