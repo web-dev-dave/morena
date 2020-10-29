@@ -2,6 +2,7 @@ body {
     background-color: salmon;
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
+/* gradient background colours that look sort of like a sun */
 /* #grad {
     background-image: radial-gradient(circle, yellow, gold, orange, red);
 } */
@@ -19,6 +20,9 @@ button {
     --content:
     <button>Morena</button>
 }
+/* shows hover text like "click on button to get a quote" 
+above button with arrow pointing downward
+transitions to be less opaque withing one second */
 .tooltip {
     display: flex;
     align-items: center;
@@ -36,6 +40,7 @@ button {
     opacity: 0;
     transition: opacity 1s;
 }
+/* shows arrows to different pages (need to do a link and < > on HTML) */
 .pagination {
     color: black;
     padding: 8px 16px;
