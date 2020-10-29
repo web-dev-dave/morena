@@ -8,9 +8,9 @@ module.exports = {
 }
 
 function getEnglish (db = connection) {
-
+    
 }
 
 function getTeReo (db = connection) {
-    
+
 }

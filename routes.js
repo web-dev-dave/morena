@@ -19,6 +19,10 @@ router.get('/', (req, res) => {
     // getting a quote on the page using the id for the english quote
     db.getEnglish()
     .then(() => {
+      const viewBoth = {
+        english_quotes: englishQuotes,
+
+      }
 
 
     // & te reo quotes table
