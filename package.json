@@ -1,0 +1,30 @@
+{
+  "name": "water_benders",
+  "version": "0.1.0",
+  "description": "Friday jams",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index",
+    "knex": "knex",
+    "lint": "eslint .",
+    "test": "jest --watchAll --noStackTrace"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/horoeka-2020/water_benders.git"
+  },
+  "author": "\"Water benders\"",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/horoeka-2020/water_benders/issues"
+  },
+  "homepage": "https://github.com/horoeka-2020/water_benders#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
+    "knex": "^0.21.8",
+    "pg": "^8.4.2",
+    "sqlite3": "^5.0.0"
+  }
+}
