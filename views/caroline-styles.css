@@ -2,9 +2,9 @@ body {
     background-color: salmon;
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
-#grad {
-    background-image: radial-gradient(circle, yellow, orange, red);
-}
+/* #grad {
+    background-image: radial-gradient(circle, yellow, gold, orange, red);
+} */
 button {
     display: flex;
     flex-direction: column;
@@ -35,6 +35,13 @@ button {
     visibility: hidden;
     opacity: 0;
     transition: opacity 1s;
+}
+.pagination {
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
 }
 .container {
     display: flex;
