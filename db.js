@@ -3,8 +3,7 @@ const config = require('./knexfile').development
 const database = knex(config)
 
 module.exports = {
-    getEnglishById,
-    getTeReo
+    getEnglishById
 }
 
 function getEnglishById (id, db = database) {
@@ -29,8 +28,4 @@ function getEnglishById (id, db = database) {
         maoriId: result[0].maoriId,
         maoriQuote: result[0].maoriQuote
     }))
-}
-
-function getTeReo (db = database) {
-
 }
