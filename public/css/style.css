@@ -45,7 +45,7 @@ html,
   width: 100%;
   height: 50%;
   position: absolute;
-  z-index: -1;
+  /* z-index: -1; */
   background-color: rgb(255, 255, 255);
 }
 
@@ -69,18 +69,12 @@ html,
   width: 100%;
   height: 50%;
   position: absolute;
-  z-index: -1;
+  /* z-index: -1; */
   background-color: rgb(128, 0, 0);
 }
 
-/* .btmcontainer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-} */
 
-.maoriquote,
-.englishquote {
+.maoriquote {
   text-align: left;
   margin: 0;
   position: absolute;
@@ -89,7 +83,14 @@ html,
   transform: translate(-50%, -50%);
 }
 
-.maoriquote {
+.englishquote {
+  text-align: left;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
 }
 
 #text {
@@ -109,6 +110,11 @@ html,
   outline: none
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
 .homebtn {
   border: none;
   padding: 15px 32px;
@@ -121,27 +127,6 @@ html,
   outline: none;
   font-family: "Merriweather", serif;
 }
-
-/* shows hover text like "click on button to get a quote" 
-above button with arrow pointing downward
-transitions to be less opaque withing one second */
-/* .tooltip {
-  display: flex;
-  align-items: center;
-}
-.tooltip .tooltiptext::after {
-  content: " ";
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  margin-left: -5px;
-  border-width: 5px;
-  border-style: solid;
-  border-color: black transparent transparent transparent;
-  visibility: hidden;
-  opacity: 0;
-  transition: opacity 1s;
-} */
 
 .addbtn {
   border: none;
@@ -177,5 +162,4 @@ transitions to be less opaque withing one second */
   float: right;
   margin-right: 200px;
   margin-top: -40px;
-  z-index: 100;
 }
