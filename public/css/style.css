@@ -106,7 +106,7 @@ html,
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
-  background: rgba(76, 175, 80, 0.1);
+  background: rgba(119, 119, 119, 0.1);
   outline: none
 }
 
@@ -131,6 +131,34 @@ a {
 .addbtn {
   border: none;
   padding: 15px 32px;
+  text-align: right;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  outline: none;
+  font-family: "Merriweather", serif;
+}
+
+/* .addbtn {
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  outline: none;
+  font-family: "Merriweather", serif;
+  position: absolute;
+  left: 45%;
+} */
+
+/* .addbtn {
+  border: none;
+  padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -140,11 +168,11 @@ a {
   font-family: "Merriweather", serif;
   display: flex;
   align-items: center;
-  /* float: center; */
+  float: center;
   position: relative;
   top: -25px;
   left: 25%;
-}
+} */
 
 .previous{
   text-decoration: none;
@@ -152,7 +180,7 @@ a {
   font-size: 50px;
   float: left;
   margin-left: 200px;
-  margin-top: -40px;
+  margin-top: 14em;
 }
 
 .next{
@@ -161,5 +189,5 @@ a {
   font-size: 50px;
   float: right;
   margin-right: 200px;
-  margin-top: -40px;
+  margin-top: 14em;
 }
