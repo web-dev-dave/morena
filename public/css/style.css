@@ -150,15 +150,15 @@ transitions to be less opaque withing one second */
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 4px 30px 4px 0px;
   cursor: pointer;
   outline: none;
   font-family: "Merriweather", serif;
   display: flex;
   align-items: center;
-  float: right;
-  positon: relative;
-  top: -300px;
+  /* float: center; */
+  position: relative;
+  top: -25px;
+  left: 25%;
 }
 
 .previous{
