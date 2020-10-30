@@ -19,12 +19,15 @@ function getEnglishById (id, db = database) {
     .where('english.id', id)
 
     // Select properties and assign alias
-    .select('english.id as englishId', 'maori.id as maoriId')
+    .select('english.id as englishId', 'maori.id as maoriId', 'english.author as englishAuthor', 'english.quote as englishQuote', 'maori.quote as maoriQuote')
 
     // Enter array with index then dot notation to access object
     .then(result => ({
         id: result[0].englishId,
-        author: result[0].author
+        author: result[0].englishAuthor,
+        quote: result[0].englishQuote,
+        maoriId: result[0].maoriId,
+        maoriQuote: result[0].maoriQuote
     }))
 }
 

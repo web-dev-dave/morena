@@ -25,10 +25,13 @@ router.get('/', (req, res) => {
     .then(english => {
       const viewData = {
         id: english.id,
+        maoriId: english.maoriId,
         author: english.author,
-        quote: english.quote
+        engQuote: english.quote,
+        maoriQuote: english.maoriQuote
       }
       console.log(english)
+      console.log(english.maoriQuote)
       res.render('quoteview', viewData)
     })
     .catch(err => {
