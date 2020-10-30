@@ -13,23 +13,6 @@ router.get('/', (req, res) => {
 })
 
 //  Render for quote route aka quoteview.hbs
-<<<<<<< HEAD
-router.get('/quote', (req, res) => {
-  // getting a quote on the page using the id for the english quote
-  // db.getEnglish()
-  // .then(() => {
-  //   const viewBoth = {
-  //     english_quotes: englishQuotes,
-
-  //   }
-
-  //   // & te reo quotes table
-  //   db.getTeReo()
-
-  //   })
-  res.render('quoteview')
-})
-=======
   router.get('/quote/:id', (req, res) => {
 
     // Declare our ID
@@ -53,4 +36,3 @@ router.get('/quote', (req, res) => {
       res.status(500).send('DATABASE ERROR ' + err.message)
     })   
   })
->>>>>>> 76c75be930335eff1af616396603b84ff104f622
