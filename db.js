@@ -3,7 +3,8 @@ const config = require('./knexfile').development
 const database = knex(config)
 
 module.exports = {
-    getEnglishById
+    getEnglishById,
+    getRandomID
 }
 
 function getEnglishById (id, db = database) {
@@ -29,3 +30,10 @@ function getEnglishById (id, db = database) {
         maoriQuote: result[0].maoriQuote
     }))
 }
+
+// Get random ID
+function getRandomID(min, max) {
+    min = Math.ceil(min);
+    max = Math.floor(max);
+    return Math.floor(Math.random() * (max - min) + min); //The maximum is exclusive and the minimum is inclusive
+  }
