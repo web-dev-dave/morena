@@ -73,7 +73,6 @@ html,
   background-color: rgb(128, 0, 0);
 }
 
-
 .maoriquote {
   text-align: left;
   margin: 0;
@@ -107,7 +106,7 @@ html,
   margin: 4px 2px;
   cursor: pointer;
   background: rgba(119, 119, 119, 0.1);
-  outline: none
+  outline: none;
 }
 
 a {
@@ -173,21 +172,3 @@ a {
   top: -25px;
   left: 25%;
 } */
-
-.previous{
-  text-decoration: none;
-  color: black;
-  font-size: 50px;
-  float: left;
-  margin-left: 200px;
-  margin-top: 120px;
-}
-
-.next{
-  text-decoration: none;
-  color: black;
-  font-size: 50px;
-  float: right;
-  margin-right: 200px;
-  margin-top: 120px;
-}
