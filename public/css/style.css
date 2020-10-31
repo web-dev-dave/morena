@@ -172,10 +172,8 @@ a {
   top: -25px;
   left: 25%;
 } */
-<<<<<<< HEAD
-=======
 
-.previous{
+.previous {
   text-decoration: none;
   color: black;
   font-size: 50px;
@@ -184,7 +182,7 @@ a {
   margin-top: 220px;
 }
 
-.next{
+.next {
   text-decoration: none;
   color: black;
   font-size: 50px;
@@ -192,4 +190,3 @@ a {
   margin-right: 200px;
   margin-top: 220px;
 }
->>>>>>> 2b1abb77025cbe539991709b89c91b5af8bdddf7
